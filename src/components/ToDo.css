@@ -1,0 +1,80 @@
+#todo_container {
+     border: solid 1px white;
+     width: 50%;
+     height: 60%;
+}
+
+#input_container{
+    border: solid 1px white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#input_container > input{
+    width: 70%;
+    height: 50%;
+    border: none;
+    outline: none;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+#input_container > div{
+    width: 20%;
+    height: 80%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#todos{
+    border: solid 1px white;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+#todos::-webkit-scrollbar{
+    display: none;
+}
+
+.todo{
+    width: 90%;
+    min-height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.todo > p{
+    border: solid 1px white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.todo > div{
+    width: 15%;
+    height: 100%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    color: white;
+}
